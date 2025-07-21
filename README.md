@@ -62,5 +62,11 @@ The application description is divided into two parts:
     •Display a trend showing the average energy price for the past 2 weeks.
 
 
+## Content:
+This repository includes the project folder, readme file, and the legal information of the application example, organized as following:
+- **EnergyMonitoring:** The project files
+- **LEGAL_INFO.md:** Legal Information
+- **LICENSE.md:** License Information
+- **README.md:** this file
 
 
