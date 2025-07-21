@@ -1,0 +1,12 @@
+[general]
+pvss_path = "C:/Siemens/Automation/WinCC_OA/3.20"
+proj_path = "C:/Users/z004u6jf/Desktop/EnergyMonitoring"
+proj_version = "3.20"
+useNGA = 1
+useSQLite = 1
+langs = "de_AT.utf8"
+
+data = "localhost"
+event = "localhost"
+[ui]
+defaultFont = "Noto Sans"

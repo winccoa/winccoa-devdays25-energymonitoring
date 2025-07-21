@@ -1,0 +1,12 @@
+backup
+D:/WinCC_OA_Proj/EnergyMonitoring/source/OnlineBackup/
+FILE
+0
+D:\PVSS\EnergyMonitoring\
+db\backup_db_EnergyMonitoring_202505220400.txt
+db\wincc_oa\dbase.touch
+db\wincc_oa\sqlite\config.sqlite
+db\wincc_oa\sqlite\ident.sqlite
+db\wincc_oa\sqlite\last_alert.sqlite
+db\wincc_oa\sqlite\last_value.sqlite
+

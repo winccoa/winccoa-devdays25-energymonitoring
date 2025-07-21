@@ -1,0 +1,76 @@
+V 14
+1
+LANG:10000 0 
+PANEL,-1 -1 400 400 N "_3DFace" 4
+"$dec"
+"$dp"
+"$x"
+"$y"
+E E E E E 1 -1 -1 0  50 65
+"EnergySystem"0  1
+E E 4
+"CBRef" "1"
+"EClose" E
+"dpi" "96"
+"pdpi" "94.1104"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+0
+29 1
+"LCD1"
+""
+1 50 65 E E E 1 E 1 E N "_3DText" E N "_3DFace" E E
+ E E
+0 0 0 0 0 0
+E E E
+0
+1
+LANG:10000 0 
+
+4
+"mode" "enum 1"
+"decimals" "int 3"
+"digitCount" "int 10"
+"layoutAlignment" "AlignNone"
+1
+LANG:10000 43 Noto Sans,-1,16,5,400,0,0,0,0,0,0,0,0,0,0,1
+0  50 65 270 110
+19 NUMLED.NumLEDCtrl.1
+0
+"main()
+{
+  dpConnect(\"cb_ChangeValue\", $dp);
+
+  this.decimals($dec);
+  this.size($x, $y);
+}
+
+void cb_ChangeValue(string dp, float value)
+{
+  this.value(value);
+}" 0
+0
+LAYER, 1 
+0
+0
+LAYER, 2 
+0
+0
+LAYER, 3 
+0
+0
+LAYER, 4 
+0
+0
+LAYER, 5 
+0
+0
+LAYER, 6 
+0
+0
+LAYER, 7 
+0
+0
+0

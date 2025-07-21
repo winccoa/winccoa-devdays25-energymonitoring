@@ -1,0 +1,490 @@
+WCCILpmon    (1), 2025.03.31 10:56:25.116, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.03.31 10:56:30.489, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.03.31 10:56:30.589, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.03.31 10:56:31.074, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.03.31 10:56:33.636, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.03.31 10:56:35.002, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.03.31 10:56:38.687, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.03.31 10:56:39.161, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.03.31 10:56:40.488, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.03.31 10:56:53.951, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 10:56:54.979, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 -p vision/login.pnl -style fusion
+WCCILpmon    (1), 2025.03.31 10:56:56.789, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.03.31 10:57:05.485, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.31 10:58:20.122, SYS,  INFO,       28/pmon, Erhielt INS Befehl von ::1, füge neuen Manager WCCOActrl auf index 10 ein
+WCCILpmon    (1), 2025.03.31 10:58:20.123, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.31 10:58:20.130, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.03.31 11:03:07.401, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager WCCOActrl(3) auf Index 10
+WCCILpmon    (1), 2025.03.31 11:03:07.408, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:03:08.112, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(3) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.31 11:03:08.121, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.03.31 11:10:30.314, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager WCCOActrl(3) auf Index 10
+WCCILpmon    (1), 2025.03.31 11:10:30.315, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:10:30.624, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(3) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.31 11:10:30.687, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.03.31 11:11:33.566, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.03.31 11:11:33.573, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:11:33.573, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:11:33.574, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:11:33.575, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:11:33.575, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:11:33.576, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:11:35.706, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:11:36.007, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:11:37.949, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:11:39.066, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.03.31 11:11:40.890, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.03.31 11:11:40.953, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.03.31 11:11:41.323, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.03.31 11:11:42.514, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.03.31 11:11:43.310, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.03.31 11:11:44.724, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.03.31 11:11:45.086, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.03.31 11:11:45.885, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.03.31 11:11:53.672, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 11:11:54.178, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.03.31 11:11:54.589, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.03.31 11:15:14.808, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.03.31 11:15:14.814, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:15:14.814, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:15:14.815, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:15:14.815, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:15:14.815, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:15:14.816, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:15:16.469, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:15:16.669, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:15:18.695, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:15:18.796, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.03.31 11:15:33.926, SYS,  INFO,       28/pmon, Erhielt INS Befehl von ::1, füge neuen Manager WCCOActrl auf index 10 ein
+WCCILpmon    (1), 2025.03.31 11:15:37.871, SYS,  INFO,       27/pmon, Erhielt DEL Befehl von ::1, lösche den Manager WCCOAui auf Index 9
+WCCILpmon    (1), 2025.03.31 11:15:39.029, SYS,  INFO,       28/pmon, Erhielt INS Befehl von ::1, füge neuen Manager WCCOAui auf index 10 ein
+WCCILpmon    (1), 2025.03.31 11:15:41.311, SYS,  INFO,       27/pmon, Erhielt DEL Befehl von ::1, lösche den Manager WCCOAui auf Index 10
+WCCILpmon    (1), 2025.03.31 11:15:42.471, SYS,  INFO,       28/pmon, Erhielt INS Befehl von ::1, füge neuen Manager WCCOAui auf index 11 ein
+WCCILpmon    (1), 2025.03.31 11:15:45.595, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.03.31 11:15:45.599, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.03.31 11:15:46.008, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.03.31 11:15:46.866, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.03.31 11:15:47.881, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.03.31 11:15:48.419, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.03.31 11:15:48.725, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.03.31 11:15:49.533, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.03.31 11:15:51.070, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 11:15:51.783, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.03.31 11:15:53.735, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.03.31 11:15:54.832, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.03.31 11:22:06.766, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.03.31 11:22:06.767, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:22:06.768, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:22:06.769, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:22:06.769, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:22:06.770, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:22:06.770, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:22:06.771, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:22:08.436, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:22:08.737, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:22:10.671, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 11:22:11.578, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.03.31 11:22:13.251, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.03.31 11:22:13.273, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.03.31 11:22:13.578, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.03.31 11:22:14.575, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.03.31 11:22:15.291, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.03.31 11:22:16.237, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.03.31 11:22:16.542, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.03.31 11:22:17.275, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.03.31 11:22:20.214, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 11:22:21.204, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.03.31 11:22:22.431, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.03.31 11:22:23.838, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.03.31 13:14:41.646, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.31 13:14:41.648, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 13:14:41.848, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.31 13:14:41.856, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 13:15:47.208, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.31 13:15:47.208, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 13:15:47.310, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2025.03.31 13:15:47.313, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 13:16:13.134, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.31 13:16:13.134, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 13:16:13.236, SYS,  INFO,       12/pmon, Manager node(2) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2025.03.31 13:16:17.473, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.31 13:16:17.479, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 13:19:05.389, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.31 13:19:05.390, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 13:19:05.493, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.31 13:19:05.496, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 13:32:07.269, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.31 13:32:07.270, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 13:32:07.371, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.31 13:32:07.374, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 13:35:43.763, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.31 13:35:43.763, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 13:35:43.865, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.31 13:35:43.868, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 13:49:41.423, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.31 13:49:41.424, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 13:49:41.526, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.31 13:49:41.529, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 13:55:35.448, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.31 13:55:35.449, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 13:55:35.549, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.31 13:55:35.552, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 14:00:01.996, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.31 14:00:01.997, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.31 14:00:02.098, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.31 14:00:02.101, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.31 17:34:30.099, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.01 01:13:06.232, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.01 08:48:11.503, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.01 16:24:21.185, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.01 23:59:58.567, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.02 07:30:35.053, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.02 15:02:42.052, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.02 22:33:49.325, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.03 06:00:55.446, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.03 09:17:04.725, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.04.03 09:17:04.727, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.03 09:17:04.839, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.04.03 09:17:06.694, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.04.03 09:25:28.232, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.04.03 09:25:28.233, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.03 09:25:28.334, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.04.03 09:25:28.350, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.04.03 09:39:22.712, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.04.03 09:39:22.713, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.03 09:39:22.815, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.04.03 09:39:22.819, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.04.03 09:46:13.601, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager WCCOActrl(4) auf Index 10
+WCCILpmon    (1), 2025.04.03 09:46:13.602, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.03 09:46:15.114, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(4) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.04.03 09:46:15.192, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.04.03 10:07:38.023, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.04.03 10:07:38.024, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.03 10:07:38.124, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.04.03 10:07:38.132, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.04.03 13:30:33.259, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.03 21:07:08.349, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.04 04:37:42.188, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.04 12:04:45.652, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.04 19:32:49.055, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.05 02:56:23.312, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.05 10:14:26.448, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.05 17:33:28.976, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.06 00:51:32.614, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.06 08:01:05.515, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.06 15:11:38.444, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.06 22:21:41.070, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.07 05:44:47.585, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.07 13:11:53.806, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.07 14:00:32.755, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.04.07 14:00:32.757, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.07 14:00:32.860, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.04.07 14:00:34.949, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.04.07 14:00:35.452, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2025.04.07 14:00:35.476, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.04.07 14:00:35.786, SYS,  INFO,       12/pmon, Manager node(2) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2025.04.07 14:02:52.976, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.04.07 14:02:53.001, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.04.07 20:34:28.392, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.08 03:50:03.058, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.08 11:01:35.258, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.08 18:14:08.845, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.09 01:21:12.324, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.09 08:05:13.361, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.09 14:49:44.796, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.09 21:34:16.277, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.10 04:14:47.232, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.10 10:52:47.566, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.10 17:31:47.551, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.11 00:10:17.554, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.11 06:42:47.025, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.11 13:15:15.581, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.11 19:48:14.386, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.12 02:18:43.261, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.12 08:45:11.069, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.12 15:12:09.841, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.12 21:38:51.135, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.13 04:02:34.023, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.13 10:23:46.734, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.13 16:45:29.291, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.13 23:07:12.886, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.14 06:12:00.933, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.14 09:03:10.191, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.04.14 09:03:10.212, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.14 09:03:10.220, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.14 09:03:10.220, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.14 09:03:10.221, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.14 09:03:10.221, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.14 09:03:10.222, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.14 09:03:10.222, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.14 09:03:13.705, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.14 09:03:14.108, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.14 09:03:16.051, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.04.14 09:03:16.959, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.04.14 09:04:40.736, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.04.14 09:04:40.822, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.04.14 09:04:41.338, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.04.14 09:04:42.477, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.04.14 09:04:44.296, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.04.14 09:04:44.762, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.04.14 09:04:45.124, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.04.14 09:04:45.935, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.04.14 09:04:56.940, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.04.14 09:04:57.249, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.04.14 09:04:57.553, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.04.14 09:04:59.765, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.04.14 13:25:15.732, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.14 20:37:59.280, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.15 03:35:41.190, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.15 10:19:52.506, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.15 17:05:02.549, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.15 23:50:15.541, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.16 06:28:55.588, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.16 13:07:35.392, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.16 19:46:45.820, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.17 02:23:26.961, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.17 08:56:07.786, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.17 15:29:17.586, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.17 22:02:27.842, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.18 04:31:35.586, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.18 10:58:45.421, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.18 17:26:23.751, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.18 23:54:04.000, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.19 06:16:13.068, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.19 12:38:20.122, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.19 19:00:57.763, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.20 01:23:05.385, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.20 07:44:42.331, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.20 14:06:50.862, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.20 20:28:58.266, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.21 03:13:40.425, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.21 10:25:24.220, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.21 17:38:08.850, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.22 00:47:51.687, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.22 07:32:02.698, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.22 14:16:43.555, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.22 21:01:24.581, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.23 03:43:04.961, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.23 10:21:46.907, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.23 17:00:57.418, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.23 23:40:38.166, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.24 06:13:46.916, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.24 12:46:55.731, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.24 19:20:35.679, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.25 01:52:16.062, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.25 08:19:26.367, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.25 14:47:36.989, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.25 21:15:16.984, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.26 03:39:56.485, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.26 10:01:34.816, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.26 16:24:12.524, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.26 22:46:50.078, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.27 05:08:58.042, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.27 11:31:06.100, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.27 17:53:45.100, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.28 00:18:23.744, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.28 07:30:38.973, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.28 14:43:23.953, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.28 21:56:07.413, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.29 04:48:47.972, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.29 11:32:57.908, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.29 18:18:07.922, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.30 01:02:18.624, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.30 07:40:28.177, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.30 14:19:08.606, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.04.30 20:57:47.538, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.01 03:33:26.723, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.01 10:06:07.235, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.01 16:39:17.938, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.01 23:12:27.349, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.02 05:40:07.437, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.02 12:06:47.058, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.02 18:34:57.101, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.03 01:02:04.569, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.03 07:23:42.933, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.03 13:45:52.290, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.03 20:08:31.626, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.04 02:30:38.969, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.04 08:52:16.544, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.04 15:14:56.044, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.04 21:37:04.150, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.05 04:30:46.785, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.05 11:42:59.800, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.05 18:56:13.069, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.06 02:00:25.238, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.06 08:44:35.150, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.06 15:29:45.948, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.06 22:14:28.394, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.07 04:54:38.499, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.07 11:32:49.538, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.07 18:11:59.485, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.08 00:50:10.032, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.08 07:22:49.292, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.08 13:55:28.769, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.08 20:28:37.496, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.09 02:59:16.622, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.09 09:26:24.896, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.09 13:22:17.187, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(1) auf Index 7
+WCCILpmon    (1), 2025.05.09 13:22:17.640, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.05.09 13:29:01.689, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(1) auf Index 11
+WCCILpmon    (1), 2025.05.09 13:29:01.736, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 11 -p vision/login.pnl -style fusion
+WCCILpmon    (1), 2025.05.09 15:53:34.198, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.09 22:21:11.982, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.10 04:44:20.316, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.10 11:05:59.321, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.10 17:28:07.582, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.10 23:50:17.081, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.11 06:11:55.052, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.11 12:33:32.494, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.11 18:55:40.928, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.12 01:27:50.313, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.12 08:39:34.460, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.12 15:52:17.786, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.12 23:05:01.218, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.13 05:52:42.882, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.13 12:36:52.990, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.13 19:22:04.377, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.14 02:04:44.048, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.14 08:42:54.715, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.14 09:04:55.902, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.05.14 09:04:56.111, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.05.14 09:06:37.174, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.05.14 09:06:37.178, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.05.14 09:06:38.312, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(3) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.05.14 09:06:38.381, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.05.14 09:06:39.086, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(4) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.05.14 09:06:39.090, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.05.14 09:06:39.758, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILevent(0) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.14 09:06:39.859, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.14 09:06:39.859, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.14 09:06:39.860, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.14 09:06:39.861, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.14 09:06:39.861, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.14 09:06:40.263, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.14 09:06:42.306, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.14 09:06:43.011, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.14 09:06:43.175, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.14 09:06:43.471, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.05.14 09:06:44.775, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.05.14 09:06:46.266, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.05.14 09:06:47.079, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.05.14 09:06:47.384, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.05.14 09:06:48.124, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.05.15 17:33:01.423, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.05.15 17:33:02.216, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.05.15 17:33:03.470, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.05.15 17:33:03.974, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.05.15 17:33:42.700, SYS,  SEVERE,     45/pmon, Notfall Modus erkannt.
+WCCILpmon    (1), 2025.05.15 17:34:05.984, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager WCCOActrl(3) auf Index 9
+WCCILpmon    (1), 2025.05.15 17:34:05.985, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:34:06.487, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(3) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.05.15 17:34:06.490, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.05.15 17:34:12.070, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.05.15 17:34:12.077, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:34:12.077, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:34:12.078, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:34:12.078, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:34:12.079, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:34:12.079, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:34:13.798, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:34:14.087, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:34:15.996, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:34:16.096, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.05.15 17:34:18.795, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.05.15 17:34:18.884, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.15 17:34:19.192, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.05.15 17:34:20.484, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.05.15 17:34:21.251, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.05.15 17:34:21.658, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.05.15 17:34:22.126, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.05.15 17:34:23.471, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.05.15 17:34:28.263, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.05.15 17:34:28.890, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.05.15 17:34:29.902, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.05.15 17:34:31.100, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.05.15 17:34:45.252, SYS,  SEVERE,     45/pmon, Notfall Modus erkannt.
+WCCILpmon    (1), 2025.05.15 17:36:42.526, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.05.15 17:36:42.527, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:36:42.528, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:36:42.528, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:36:42.529, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:36:42.529, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:36:42.529, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:36:43.634, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:36:43.943, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:36:45.890, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:36:46.715, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.05.15 17:36:59.584, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.05.15 17:36:59.605, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.15 17:36:59.912, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.05.15 17:37:01.011, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.05.15 17:37:02.463, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.05.15 17:37:02.993, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.05.15 17:37:03.321, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.05.15 17:37:04.305, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.05.15 17:37:06.963, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.05.15 17:37:07.367, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.05.15 17:37:08.091, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.05.15 17:37:09.150, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.05.15 17:37:09.150, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:37:09.151, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:37:09.151, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:37:09.152, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:37:09.152, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:37:09.153, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:37:10.384, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:37:10.585, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:37:12.646, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.15 17:37:12.949, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.05.15 17:37:13.906, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.05.15 17:37:13.911, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.15 17:37:14.217, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.05.15 17:37:15.280, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.05.15 17:37:15.987, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.05.15 17:37:16.493, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.05.15 17:37:16.899, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.05.15 17:37:19.403, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.05.15 17:37:21.853, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.05.15 17:37:22.157, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.05.15 17:37:22.963, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.05.15 17:37:24.208, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.05.15 18:07:19.358, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.05.15 18:07:19.360, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.05.15 23:38:44.936, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.16 06:05:54.433, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.16 12:32:32.567, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.16 19:00:12.321, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.17 01:26:21.646, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.17 07:47:31.600, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.17 14:09:09.325, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.17 20:31:18.315, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.18 02:53:26.780, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.18 09:15:04.762, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.18 15:37:12.957, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.18 21:59:21.433, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.19 04:56:03.297, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.19 12:08:15.821, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.19 19:21:29.726, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.20 02:24:11.104, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.20 09:08:20.194, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.20 15:53:01.177, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.20 22:37:42.330, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.21 05:16:51.472, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.21 11:55:00.920, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.21 18:34:11.457, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.22 01:11:51.752, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.22 07:44:01.830, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\PVSS\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.22 07:51:54.519, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.05.22 07:51:54.534, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 07:51:54.535, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 07:51:54.536, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 07:51:54.537, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 07:51:54.537, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 07:51:54.538, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 07:51:57.306, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 07:51:57.658, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 07:51:59.579, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 07:52:00.184, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.05.22 07:52:10.732, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.05.22 07:52:10.732, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.05.22 07:52:10.747, SYS,  INFO,        2, Manager Stop

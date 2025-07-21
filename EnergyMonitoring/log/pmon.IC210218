@@ -1,0 +1,494 @@
+WCCILpmon    (1), 2025.03.29 10:06:31.380, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.03.29 10:14:43.061, SYS,  INFO,       28/pmon, Erhielt INS Befehl von ::1, füge neuen Manager node auf index 8 ein
+WCCILpmon    (1), 2025.03.29 10:15:16.449, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager node(1) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:15:18.047, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.03.29 10:15:18.244, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.03.29 10:15:19.155, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.03.29 10:15:35.639, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.03.29 10:15:37.339, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.03.29 10:15:37.729, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.03.29 10:15:38.089, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.03.29 10:15:38.696, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.03.29 10:15:44.805, SYS,  WARNING,     1, Manager Start, javascript/winccoa-manager/lib/bootstrap.js not found
+WCCILpmon    (1), 2025.03.29 10:15:44.913, SYS,  INFO,       11/pmon, Gestoppten Manager node(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 10:15:44.915, SYS,  WARNING,     1, Manager Start, javascript/winccoa-manager/lib/bootstrap.js not found
+WCCILpmon    (1), 2025.03.29 10:15:45.023, SYS,  INFO,       11/pmon, Gestoppten Manager node(1) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2025.03.29 10:15:45.025, SYS,  WARNING,     1, Manager Start, javascript/winccoa-manager/lib/bootstrap.js not found
+WCCILpmon    (1), 2025.03.29 10:15:45.132, SYS,  INFO,       12/pmon, Manager node(1) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2025.03.29 10:15:45.133, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.03.29 10:16:08.375, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager node(1) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:16:08.376, SYS,  WARNING,     1, Manager Start, javascript/winccoa-manager/lib/bootstrap.js not found
+WCCILpmon    (1), 2025.03.29 10:16:14.697, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager node(1) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:16:16.481, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager node(1) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:16:16.481, SYS,  WARNING,     1, Manager Start, javascript/winccoa-manager/lib/bootstrap.js not found
+WCCILpmon    (1), 2025.03.29 10:18:35.577, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.03.29 10:18:35.578, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:18:35.580, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:18:35.581, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:18:35.582, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:18:36.773, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:18:36.881, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:18:38.895, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:18:39.331, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.03.29 10:18:41.888, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.03.29 10:18:41.889, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.03.29 10:18:41.890, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.03.29 10:20:57.159, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.03.29 10:20:58.639, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.03.29 10:20:58.652, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.03.29 10:20:58.993, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.03.29 10:21:00.125, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.03.29 10:21:00.795, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.03.29 10:21:01.132, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.03.29 10:21:01.461, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.03.29 10:21:02.037, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.03.29 10:21:04.491, SYS,  WARNING,     1, Manager Start, javascript/winccoa-manager/lib/bootstrap.js not found
+WCCILpmon    (1), 2025.03.29 10:21:04.599, SYS,  INFO,       11/pmon, Gestoppten Manager node(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 10:21:04.601, SYS,  WARNING,     1, Manager Start, javascript/winccoa-manager/lib/bootstrap.js not found
+WCCILpmon    (1), 2025.03.29 10:21:04.707, SYS,  INFO,       11/pmon, Gestoppten Manager node(1) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2025.03.29 10:21:04.708, SYS,  WARNING,     1, Manager Start, javascript/winccoa-manager/lib/bootstrap.js not found
+WCCILpmon    (1), 2025.03.29 10:21:04.815, SYS,  INFO,       12/pmon, Manager node(1) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2025.03.29 10:21:04.816, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.03.29 10:22:39.249, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.03.29 10:22:39.251, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:22:39.252, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:22:39.253, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:22:40.446, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:22:40.662, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:22:42.715, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:22:42.899, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.03.29 10:22:57.559, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.03.29 10:22:57.561, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.03.29 10:22:57.562, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.03.29 10:42:04.668, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.03.29 10:42:13.386, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.03.29 10:42:13.567, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.03.29 10:42:14.257, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.03.29 10:42:17.500, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.03.29 10:42:18.831, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.03.29 10:42:25.490, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.03.29 10:42:26.392, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.03.29 10:42:27.845, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.03.29 10:42:34.341, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:42:34.790, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.03.29 10:46:27.092, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:46:27.093, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:46:27.205, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 10:46:28.524, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:46:29.217, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2025.03.29 10:46:29.223, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:46:29.874, SYS,  INFO,       12/pmon, Manager node(2) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2025.03.29 10:50:51.407, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:50:53.697, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:50:53.706, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 -f scripts/simulation.js
+WCCILpmon    (1), 2025.03.29 10:50:54.141, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 10:50:54.146, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 -f scripts/simulation.js
+WCCILpmon    (1), 2025.03.29 10:50:54.574, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2025.03.29 10:50:54.581, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 -f scripts/simulation.js
+WCCILpmon    (1), 2025.03.29 10:50:55.040, SYS,  INFO,       12/pmon, Manager node(2) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2025.03.29 10:52:57.505, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:52:59.176, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:52:59.184, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:52:59.728, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 10:52:59.735, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:53:00.308, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2025.03.29 10:53:00.314, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:53:00.855, SYS,  INFO,       12/pmon, Manager node(2) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2025.03.29 10:53:49.704, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:53:49.713, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:55:22.739, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:55:22.740, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 10:55:22.854, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 10:55:22.861, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:55:23.397, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2025.03.29 10:55:23.403, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:55:23.942, SYS,  INFO,       12/pmon, Manager node(2) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2025.03.29 10:55:27.227, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:55:27.234, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:55:27.799, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 10:55:27.811, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:55:28.362, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2025.03.29 10:55:28.370, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:55:28.798, SYS,  INFO,       12/pmon, Manager node(2) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2025.03.29 10:56:36.735, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 10:56:36.744, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:56:37.295, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 10:56:37.301, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:56:37.730, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2025.03.29 10:56:37.735, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 10:56:38.184, SYS,  INFO,       12/pmon, Manager node(2) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2025.03.29 11:05:35.638, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 11:05:36.703, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 11:10:37.287, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 11:10:37.289, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 11:10:37.392, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 11:10:37.405, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 11:16:32.480, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 11:16:32.481, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 11:16:32.585, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 11:16:33.810, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 11:16:34.474, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2025.03.29 11:16:34.482, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 11:16:35.033, SYS,  INFO,       12/pmon, Manager node(2) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2025.03.29 11:19:05.158, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 11:19:05.168, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 11:22:51.458, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 11:22:51.459, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 11:22:51.572, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 11:22:51.580, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 12:18:44.237, SYS,  INFO,       28/pmon, Erhielt INS Befehl von ::1, füge neuen Manager WCCOAui auf index 9 ein
+WCCILpmon    (1), 2025.03.29 12:18:45.698, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:18:45.802, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 -m login
+WCCILpmon    (1), 2025.03.29 12:19:00.047, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:19:01.480, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:19:01.490, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 -m login.pnl
+WCCILpmon    (1), 2025.03.29 12:19:09.512, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:19:10.614, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:19:10.625, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 login.pnl
+WCCILpmon    (1), 2025.03.29 12:19:20.039, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:19:20.819, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:19:20.829, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 login
+WCCILpmon    (1), 2025.03.29 12:21:11.250, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(2) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:21:11.255, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 login
+WCCILpmon    (1), 2025.03.29 12:21:26.884, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:21:28.028, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:21:28.036, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 login.pnl
+WCCILpmon    (1), 2025.03.29 12:21:32.368, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(2) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:21:32.374, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 login.pnl
+WCCILpmon    (1), 2025.03.29 12:21:54.017, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:21:55.246, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:21:55.253, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 -p login.pnl
+WCCILpmon    (1), 2025.03.29 12:22:04.526, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:22:05.433, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:22:05.445, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 -p login
+WCCILpmon    (1), 2025.03.29 12:22:12.605, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:22:13.261, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:22:13.271, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 -p
+WCCILpmon    (1), 2025.03.29 12:22:46.866, SYS,  INFO,       29/pmon, Erhielt PROP_PUT Befehl von ::1, ändere Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:22:48.042, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(1) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:22:48.054, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 -p vision/login.pnl -style fusion
+WCCILpmon    (1), 2025.03.29 12:22:57.875, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(2) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:22:57.882, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 -p vision/login.pnl -style fusion
+WCCILpmon    (1), 2025.03.29 12:23:52.108, SYS,  INFO,       24/pmon, Erhielt START Befehl von ::1, starte den Manager WCCOAui(2) auf Index 9
+WCCILpmon    (1), 2025.03.29 12:23:52.114, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 -p vision/login.pnl -style fusion
+WCCILpmon    (1), 2025.03.29 12:33:32.110, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 12:33:32.111, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 12:33:32.225, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 12:33:33.254, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 12:40:52.728, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 12:40:52.729, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 12:40:52.833, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 12:40:52.840, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 12:44:17.816, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 12:44:17.817, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 12:44:17.929, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 12:44:17.939, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 13:05:42.489, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 13:05:42.491, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 13:05:42.607, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 13:05:42.618, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 13:10:24.989, SYS,  INFO,       25/pmon, Erhielt STOP Befehl (SIGTERM) von ::1, stoppe den Manager node(2) auf Index 8
+WCCILpmon    (1), 2025.03.29 13:10:24.992, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 13:10:25.098, SYS,  INFO,       11/pmon, Gestoppten Manager node(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2025.03.29 13:10:25.104, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.03.29 13:43:09.345, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.03.29 13:43:09.347, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 13:43:09.347, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 13:43:09.348, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 13:43:09.349, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 13:43:09.350, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 13:43:10.885, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 13:43:11.104, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 13:43:13.113, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.03.29 13:43:13.221, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.03.29 13:43:24.180, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.03.29 13:43:24.181, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.03.29 13:43:24.183, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.05.22 08:19:57.349, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.05.22 08:20:00.589, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.05.22 08:20:00.704, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:01.258, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:01.367, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:01.479, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:01.804, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:01.911, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:02.024, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:02.453, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:02.566, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:02.681, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:03.109, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:03.217, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:03.329, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:03.761, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:03.828, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:03.933, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:04.369, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:04.479, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:04.591, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:05.021, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:05.129, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:05.241, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:05.675, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:05.785, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:05.873, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:06.311, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:06.420, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:06.533, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:06.967, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:07.075, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:07.187, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:07.622, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:07.733, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:07.844, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:08.332, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:08.440, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:08.559, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:08.999, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:09.106, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:09.218, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:09.661, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILdataSQLite(1) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2025.05.22 08:20:09.706, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.05.22 08:20:09.708, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.05.22 08:20:49.685, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.05.22 08:20:49.691, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.22 08:20:50.140, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.05.22 08:20:52.052, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.05.22 08:20:53.379, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.05.22 08:21:00.308, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.05.22 08:21:00.713, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.05.22 08:21:01.283, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.05.22 08:21:07.468, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.05.22 08:21:07.917, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.05.22 08:21:08.243, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.05.22 08:21:08.685, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.05.22 08:24:12.133, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.05.22 08:24:12.134, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 08:24:12.135, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 08:24:12.136, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 08:24:12.136, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 08:24:12.137, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 08:24:12.137, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 08:24:12.138, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 08:24:13.358, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 08:24:13.687, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 08:24:15.639, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.22 08:24:16.186, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.05.22 08:24:18.935, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.05.22 08:24:18.936, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.05.22 08:24:18.937, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.05.26 09:11:12.213, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.05.26 09:11:13.401, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.05.26 09:11:13.478, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.26 09:11:13.972, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.05.26 09:11:15.981, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.05.26 09:11:16.876, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.05.26 09:11:23.215, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.05.26 09:11:23.607, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.05.26 09:11:24.271, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.05.26 09:11:26.593, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.05.26 09:11:27.088, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.05.26 09:11:27.417, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.05.26 09:11:27.843, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.05.26 14:58:41.397, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.05.26 14:58:41.399, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.26 14:58:41.401, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.26 14:58:41.401, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.26 14:58:41.403, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.26 14:58:41.404, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.26 14:58:41.405, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.26 14:58:41.406, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.26 14:58:42.529, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.26 14:58:42.856, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.26 14:58:44.760, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.26 14:58:45.194, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.05.26 14:58:50.295, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.05.26 14:58:50.296, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.05.26 14:58:50.299, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.05.27 08:42:29.531, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.05.27 08:42:31.166, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.05.27 08:42:31.220, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.27 08:42:31.499, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.05.27 08:42:32.767, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.05.27 08:42:33.246, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.05.27 08:42:33.502, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.05.27 08:42:33.770, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.05.27 08:42:34.198, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.05.27 08:42:37.608, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.05.27 08:42:38.061, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.05.27 08:42:38.288, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.05.27 08:42:38.506, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.05.27 09:47:06.710, SYS,  INFO,      165, maxLogFileSize limit reached (10 MB). Renamed the logfile D:\WinCC_OA_Proj\EnergyMonitoring\log\\PVSS_II.log
+WCCILpmon    (1), 2025.05.27 13:26:03.980, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.05.27 13:26:03.980, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 13:26:03.980, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 13:26:03.980, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 13:26:03.995, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 13:26:03.995, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 13:26:03.995, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 13:26:05.167, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 13:26:05.386, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 13:26:07.335, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 13:26:07.555, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.05.27 14:26:08.490, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.05.27 14:26:08.604, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.05.27 14:26:10.052, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.05.27 14:26:12.570, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.05.27 14:26:14.970, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.05.27 14:26:15.502, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.05.27 14:26:16.001, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.05.27 14:26:16.990, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.05.27 14:26:31.171, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.05.27 14:26:31.733, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.05.27 14:26:32.236, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.05.27 14:26:32.784, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.05.27 14:43:46.544, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.05.27 14:43:46.546, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 14:43:46.547, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 14:43:46.548, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 14:43:46.549, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 14:43:46.550, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 14:43:46.551, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 14:43:48.270, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 14:43:48.602, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 14:43:50.521, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.05.27 14:43:50.965, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.05.27 14:43:56.772, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.05.27 14:43:56.774, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.05.27 14:43:56.776, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.06.02 07:54:20.061, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.06.02 07:54:25.981, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.06.02 07:54:26.078, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.06.02 07:54:26.496, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.06.02 07:54:28.524, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.06.02 07:54:29.343, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.06.02 07:54:35.738, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.06.02 07:54:36.120, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.06.02 07:54:36.668, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.06.02 07:54:39.324, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.06.02 07:54:39.874, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.06.02 07:54:40.202, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.06.02 07:54:40.645, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.06.02 08:34:06.166, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.06.02 08:34:06.168, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 08:34:06.169, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 08:34:06.170, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 08:34:06.171, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 08:34:06.172, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 08:34:06.173, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 08:34:07.316, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 08:34:07.535, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 08:34:09.557, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 08:34:10.433, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.06.02 08:34:20.508, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.06.02 08:34:20.509, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.06.02 08:34:20.510, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.06.02 10:50:26.109, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.06.02 10:50:31.583, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.06.02 10:50:31.666, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.06.02 10:50:32.183, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.06.02 10:50:34.544, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.06.02 10:50:35.376, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.06.02 10:50:48.164, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.06.02 10:50:48.539, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.06.02 10:50:49.093, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.06.02 10:51:00.013, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.06.02 10:51:00.459, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.06.02 10:51:00.783, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.06.02 10:51:01.213, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.06.02 10:57:15.674, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.06.02 10:57:15.675, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 10:57:15.676, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 10:57:15.677, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 10:57:15.678, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 10:57:15.679, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 10:57:15.680, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 10:57:15.681, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 10:57:16.877, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 10:57:17.048, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 10:57:19.066, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.02 10:57:19.936, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.06.02 10:57:23.816, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.06.02 10:57:23.819, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.06.02 10:57:23.825, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.06.10 13:40:19.082, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.06.10 13:40:33.684, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.06.10 13:40:33.686, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.06.10 13:40:33.688, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.06.18 12:49:19.651, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.06.18 12:49:25.825, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.06.18 12:49:25.909, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.06.18 12:49:26.329, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.06.18 12:49:28.472, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.06.18 12:49:29.431, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.06.18 12:49:42.301, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.06.18 12:49:42.732, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.06.18 12:49:43.506, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.06.18 12:49:45.883, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.06.18 12:49:46.606, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.06.18 12:49:47.059, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.06.18 12:49:47.497, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.06.18 12:49:48.318, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.06.18 12:49:48.319, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:49:48.320, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:49:48.321, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:49:48.322, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:49:48.323, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:49:48.324, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:49:59.670, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:49:59.894, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:50:01.927, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:50:02.376, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.06.18 12:51:39.493, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.06.18 12:51:39.503, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.06.18 12:51:39.838, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.06.18 12:51:40.849, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.06.18 12:51:41.504, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.06.18 12:51:49.283, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.06.18 12:51:49.721, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.06.18 12:51:50.581, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.06.18 12:51:58.009, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.06.18 12:51:58.452, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.06.18 12:51:58.839, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.06.18 12:51:59.271, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.06.18 12:53:22.150, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.06.18 12:53:22.152, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:53:22.153, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:53:22.154, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:53:22.155, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:53:22.156, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:53:22.157, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:53:22.157, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:53:23.362, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:53:23.578, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:53:25.561, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:53:26.165, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.06.18 12:53:44.012, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.06.18 12:53:44.014, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.06.18 12:53:44.015, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2025.06.18 12:56:28.054, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2025.06.18 12:56:30.260, SYS,  INFO,       20/pmon, Erhielt START_ALL Befehl von ::1, starte das Projekt
+WCCILpmon    (1), 2025.06.18 12:56:30.272, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "EnergyMonitoring" -pmonIndex 1 
+WCCILpmon    (1), 2025.06.18 12:56:30.608, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "EnergyMonitoring" -pmonIndex 2 
+WCCILpmon    (1), 2025.06.18 12:56:43.254, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "EnergyMonitoring" -pmonIndex 3 
+WCCILpmon    (1), 2025.06.18 12:56:44.248, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "EnergyMonitoring" -pmonIndex 4 
+WCCILpmon    (1), 2025.06.18 12:56:52.046, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2025.06.18 12:56:52.377, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "EnergyMonitoring" -pmonIndex 6 
+WCCILpmon    (1), 2025.06.18 12:56:53.090, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "EnergyMonitoring" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2025.06.18 12:56:55.575, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Siemens\Automation\WinCC_OA\3.20\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "EnergyMonitoring" -pmonIndex 8 energymonitoring/simulation.js
+WCCILpmon    (1), 2025.06.18 12:56:56.011, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 9 webclient_http.ctl
+WCCILpmon    (1), 2025.06.18 12:56:56.461, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "EnergyMonitoring" -pmonIndex 10 dashboard.ctl
+WCCILpmon    (1), 2025.06.18 12:56:56.888, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2025.06.18 12:57:29.636, SYS,  INFO,       21/pmon, Erhielt STOP_ALL Befehl von ::1, stoppe das Projekt
+WCCILpmon    (1), 2025.06.18 12:57:29.638, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(4) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:57:29.639, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:57:29.640, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:57:29.641, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:57:29.642, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:57:29.643, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:57:30.834, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:57:31.052, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:57:33.008, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2025.06.18 12:57:33.335, SYS,  INFO,       13/pmon, Projekt wurde komplett gestoppt - warte auf Befehle
+WCCILpmon    (1), 2025.06.18 12:57:35.880, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2025.06.18 12:57:35.881, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2025.06.18 12:57:35.882, SYS,  INFO,        2, Manager Stop

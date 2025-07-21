@@ -1,0 +1,40 @@
+{
+  "energyData": {
+    "Lighting": {
+      "voltage": 230,
+      "current": 0.6818767700330854,
+      "energy": 0.15683165710760966,
+      "power": 156.83165710760966,
+      "cost": 0.047049497132282896
+    },
+    "HVAC": {
+      "voltage": 230,
+      "current": 2.0985289461012067,
+      "energy": 0.48266165760327756,
+      "power": 482.66165760327755,
+      "cost": 0.14479849728098326
+    },
+    "Appliance": {
+      "voltage": 230,
+      "current": 1.0018783637059998,
+      "energy": 0.23043202365237997,
+      "power": 230.43202365237997,
+      "cost": 0.06912960709571399
+    }
+  },
+  "systemInfo": {
+    "cpu": "Intel Core™ i7-10710U",
+    "os": "Microsoft Windows 11 Business 10.0.22631"
+  },
+  "price": 0.3,
+  "totalEnergy": 0.8699253383632672,
+  "totalCost": 0.26097760150898014,
+  "comparison": {
+    "Lighting-HVAC": -67.50691615191091,
+    "Lighting-Appliance": -31.940164122240546,
+    "HVAC-Appliance": 109.4594535746475,
+    "HVAC-Lighting": 207.7577999906616,
+    "Appliance-Lighting": 46.929534446141574,
+    "Appliance-HVAC": -52.25806317480828
+  }
+}
