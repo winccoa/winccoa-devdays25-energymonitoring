@@ -1,26 +1,26 @@
-# Energy Monitoring Project example
+# Energy Monitoring - Project Example
 
 ![pic 1](https://github.com/user-attachments/assets/52c670a9-0274-4ae1-8838-2edeb5e02d80)
 
 # Introduction
 
-During the Hackathon at the Developer Days, A project example was introduced as part of the event. The winner of the Hackathon was **Patrick Schneider** from **Viscom**. 
+During the Hackathon at the WinCC OA Developer Days 2025 in Prag, a project example was introduced as part of the event. The winner of the Hackathon was **Patrick Schneider** from **Viscom**. 
 Congratulations to him for winning the free development license!
 
-# Project Description
+# Project Task Description
 
-The application description is divided into two parts:
+The task description is divided into two parts:
 
 **First Part:**
 
-  **Using NPM package do the following tasks:**
+  **Using NPM packages, do the following:**
   
     •Add a energy consumption simulation  
     •Get system information of your PC
     •Comparing values
     •Get Energy prices 
     
-  **Using WinCC OA , do the following:**
+  **Using WinCC OA, do the following:**
   
     •Create Datapoints related to Lighting, HVAC & Appliance and Equipment
     •Create a panel and name it "Energy usage", containing:
@@ -68,5 +68,6 @@ This repository includes the project folder, readme file, and the legal informat
 - **LEGAL_INFO.md:** Legal Information
 - **LICENSE.md:** License Information
 - **README.md:** this file
+
 
 
