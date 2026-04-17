@@ -1,0 +1,15 @@
+{
+  "RepoName": "WinCC OA Energy Monitoring Demo (DevDays 2025)",
+  "Keywords": [
+    "energy-monitoring",
+    "dashboard",
+    "visualization",
+    "analytics",
+    "demo",
+    "devdays",
+    "scada"
+  ],
+  "Version": "1.0.0",
+  "Description": "Customer-developed demo project for energy monitoring, showcased at WinCC OA DevDays 2025. It highlights dashboards, data visualization, and analytics for energy consumption use cases.",
+  "OaVersions": "^3.20.0"
+}
